@@ -10,12 +10,21 @@
 Tive uma necessidade de formatar alguns computadores e todos els, tive que precisar desinstalar vários programas, com isso, tive a idéia
 de estudar e desenvolver os scripts disponíveis nesse repositório.
 Espero que eles te ajudem, pois pra mim, foi de grande valia
-
-<p>Baixe os scripts em seu Windows 10 .</p>
+<p>#Get-AppxPackage | Select-Object Name, PackageFullName</p>
+<p>Com o comando acima, você irá ter uma grande relação de todos os programas instalados em seu Windows
 <p>Passos:</p>
-<p>git  clone https://github.com/JoelFernandes01/Zabbix-via-Scripts.git</p>
-<p>cd Zabbix-via-Scripts/</p>
-<p>./Zabbix-MySQL-Install.sh</p>
+<p>Primeiramente você precisa "habilitar" o shell de executar scripts
+<p>#Set-ExecutionPolicy Unrestricted</p>
+<img align="center" src="https://github.com/JoelFernandes01/Remove-Applications-Extras-Windows/figuras/Set-ExecutionPolicy.PNG">
+ 
+
+<p>Você pode executar o comando Get-AppxPackage para verificar os programas instalados, no meu Windows (zerado, novinho),haviam ## programas instalados .
+<p>Após rodar o script, ficaram apenas ## programas instalados.
+<p>
+<p>Baixe os scripts em seu Windows 10 .</p>
+<p>https://github.com/JoelFernandes01/Remove-Applications-Extras-Windows</p>
+<p>cd Remove-Applications-Extras-Windows</p>
+<p>Remove-Applications-Extras.ps1</p>
 #--------------------------------------------------------------------------------------------------------------------------#
 Será baixado e instalado o repositório do Zabbix e suas dependências #--------------------------------------------------------------------------------------------------------------------------#
 <p>Entre com a versão a ser instalada, 6.0, 6.4 ou 7.0 .</p>
