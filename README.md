@@ -15,7 +15,7 @@ Espero que eles te ajudem, pois pra mim, foi de grande valia
 <p>Passos:</p>
 <p>Primeiramente você precisa "habilitar" o shell de executar scripts
 <p>#Set-ExecutionPolicy Unrestricted</p>
-<img> align="center" src=="https://github.com/JoelFernandes01/Remove-Applications-Extras-Windows/figuras/Set-ExecutionPolicy.PNG">
+<img align="center" src=="https://github.com/JoelFernandes01/Remove-Applications-Extras-Windows/figuras/Set-ExecutionPolicy.PNG">
 <p>Você pode executar o comando Get-AppxPackage para verificar os programas instalados, no meu Windows (zerado, novinho),haviam ## programas instalados .
 <p>Após rodar o script, ficaram apenas ## programas instalados.
 <p>
